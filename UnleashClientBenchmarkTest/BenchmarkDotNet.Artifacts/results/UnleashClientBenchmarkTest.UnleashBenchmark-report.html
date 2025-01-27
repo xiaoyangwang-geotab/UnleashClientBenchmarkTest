@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>UnleashClientBenchmarkTest.UnleashBenchmark-20250127-194620</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.14.0, Ubuntu 22.04.5 LTS (Jammy Jellyfish)
+Intel Core Ultra 7 155H, 1 CPU, 22 logical and 16 physical cores
+.NET SDK 8.0.405
+  [Host]     : .NET 8.0.12 (8.0.1224.60305), X64 RyuJIT AVX2
+  DefaultJob : .NET 8.0.12 (8.0.1224.60305), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method  </th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>TestIsEnabled</td><td>2.788 &mu;s</td><td>0.0460 &mu;s</td><td>0.0582 &mu;s</td><td>0.1678</td><td>2.09 KB</td>
+</tr><tr><td>TestGetVariant</td><td>4.707 &mu;s</td><td>0.0938 &mu;s</td><td>0.1081 &mu;s</td><td>0.2975</td><td>3.67 KB</td>
+</tr></tbody></table>
+</body>
+</html>
